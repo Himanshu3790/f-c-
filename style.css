@@ -1,0 +1,34 @@
+.main_div{
+    text-align: center;
+    height: 95%;
+}
+.header_div{
+    height: 20%;
+    background: #98a6a7;
+}
+.button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body{
+    background: #E2E8DD;
+}
+.copy_right_footer{
+    background: white;
+    line-height: 7px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+#footer{
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 10px 10px 10px black;
+}
+#heading{
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}

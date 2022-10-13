@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Animals Sound Identifaction</title>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div class="col-xs-12 header_div">
+            <h2 id="heading">Sound Controlled Aliens</h2>
+            <p>Note: Play different sounds like barking,meow </p>
+        </div>
+        <div class="main_div text-center">
+            <button class="btn btn-warning button" onclick="startClassifing()"> start </button>
+            <h4 id="animal_accuracy">Detected Cat- Detected Dog- </h4>
+            <h3 id="dected_sound">I can hear- </h3>
+            <img id="img" src="listen.gif" height="300" width="300">
+        </div>
+        <div class="copy_right_footer">
+            <h5 id="footer">Developed by- Himanshu Agarwal</h5>
+        </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
